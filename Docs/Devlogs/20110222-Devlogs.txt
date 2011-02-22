@@ -1,0 +1,20 @@
+Adding Home controller.
+Adding Index view for home controller.
+Providing a layout in Shared/_Layout.cshtml.
+
+Added <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> in head.
+Added <meta charset="utf-8" /> in head.
+
+layout :
+	<div id="page">
+		<div id="header">
+			<p class="site-title"> title.
+			<div id="login">
+			<ul id="menu">
+		/
+		<div id="main">
+			<div id="content">
+				<h1>Page title
+				Content.
+		</div>
+	/
