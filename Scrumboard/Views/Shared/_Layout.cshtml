@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
     <title>@ViewBag.Title</title>
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
     <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
@@ -11,7 +13,7 @@
 
         <div id="header">
             <div id="title">
-                <h1>My MVC Application</h1>
+                <h1><@ViewRes.SharedStrings.SiteTitle</h1>
             </div>
 
             <div id="logindisplay">
@@ -21,8 +23,9 @@
             <div id="menucontainer">
 
                 <ul id="menu">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink(@ViewRes.SharedStrings.Home, "Index", "Home")</li>
+                    <li>@Html.ActionLink(@ViewRes.SharedStrings.About, "About", "Home")</li>
+                    <li>@Html.ActionLink(@ViewRes.SharedStrings.Login, "Login", "Home")</li>
                 </ul>
 
             </div>

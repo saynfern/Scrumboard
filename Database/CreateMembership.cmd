@@ -1,0 +1,1 @@
+aspnet_regsql -A all -C "Data Source=.\SQLEXPRESS;Initial Catalog="C:\PROGRA~1\SMARTGI~1\BIN\SCRUMBOARD\SCRUMBOARD\APP_DATA\SCRUMBOARD.MDF";Persist Security Info=True;User ID=sa;Password=$spo25%" -A all > CreateMembership.log

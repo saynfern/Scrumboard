@@ -1,20 +1,13 @@
-Adding Home controller.
-Adding Index view for home controller.
-Providing a layout in Shared/_Layout.cshtml.
+- Added <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> in head.
+- Added <meta charset="utf-8" /> in head.
+- Added Home controller.
+- Added Index view for home controller.
+- Added Ressources Rep.
+- Added SharedStrings.resx, SharedStrings.fr-FR.resx (ViewRes Namespace, public).
+- Added HomeStrings.resx, HomeStrings.fr-FR.resx (ViewRes Namespace, public).
+- Modified layout and views to use localization in ressources files.
+- Changed Style.css body background.
+- Added Scrumboard database.
+- Created ASP.NET Membership provider : aspnet_regsql -A all -C "Data Source=.\SQLEXPRESS;Initial Catalog="C:\PROGRA~1\SMARTGI~1\BIN\SCRUMBOARD\SCRUMBOARD\APP_DATA\SCRUMBOARD.MDF";Persist Security Info=True;User ID=sa;Password=***********" -A all -sqlexportonly SQLCreateMembership.sql
 
-Added <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> in head.
-Added <meta charset="utf-8" /> in head.
-
-layout :
-	<div id="page">
-		<div id="header">
-			<p class="site-title"> title.
-			<div id="login">
-			<ul id="menu">
-		/
-		<div id="main">
-			<div id="content">
-				<h1>Page title
-				Content.
-		</div>
-	/
+Data Source=.\SQLEXPRESS;AttachDbFilename="C:\Program Files (x86)\SmartGit 2\bin\Scrumboard\Scrumboard\App_Data\Scrumboard.mdf";Integrated Security=True;User Instance=True
