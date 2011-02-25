@@ -123,6 +123,15 @@
   <data name="HomePage" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="LoginInvitation" xml:space="preserve">
+    <value>Please fill in your username and password</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
   <data name="WelcomeMessage" xml:space="preserve">
     <value>Welcome</value>
   </data>

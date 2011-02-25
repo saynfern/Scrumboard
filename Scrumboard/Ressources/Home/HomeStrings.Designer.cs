@@ -79,6 +79,33 @@ namespace ViewRes {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Please fill in your username and password.
+        /// </summary>
+        public static string LoginInvitation {
+            get {
+                return ResourceManager.GetString("LoginInvitation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Password.
+        /// </summary>
+        public static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Username.
+        /// </summary>
+        public static string Username {
+            get {
+                return ResourceManager.GetString("Username", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Welcome.
         /// </summary>
         public static string WelcomeMessage {
